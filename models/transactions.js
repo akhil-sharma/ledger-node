@@ -15,7 +15,7 @@ var test_db = () => {
     });
 }
 
-var test = async () =>{
+var test = async (req, res) =>{
 	try{
 		let result = await test_db();
 		let response = {
