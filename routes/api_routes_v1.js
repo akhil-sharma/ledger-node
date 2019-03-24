@@ -6,3 +6,4 @@ var transaction = require('../models/transactions');
 router.get('/test', transaction.test);
 
 module.exports = router;
+// module.exports['router'] = router;
